@@ -7,7 +7,7 @@ body {
     margin: 1em auto;
     background-color: white;
     border: 10px #D8C858 solid;
-    padding: 0.5em;
+    padding: 10em;
 }
 
 hr {
@@ -23,4 +23,21 @@ h1, h2 {
 input[type="submit"] {
     font-size: 2em;
     width: 100%;
+}
+input[type="text"]{
+    font-weight: bold;
+    color: green;
+    background-color:gray;
+    padding: 5px;
+    border-radius: 15px;
+    border:none;
+}
+select{
+    background-color: gray;
+    padding: 5px;
+}
+div{
+    background-color: gray;
+    color:black;
+    height: 30px;
 }
